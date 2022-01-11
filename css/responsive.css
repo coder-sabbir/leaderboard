@@ -1,0 +1,24 @@
+@media (max-width: 688px){
+   .header,.container{
+       width: 100%;
+   } 
+   .section-title{
+       text-align: center;
+   }
+   .players{
+       grid-template-columns: 1fr;
+   }
+   .player{
+       flex-direction: column;
+   }
+   .blogs{
+       grid-template-columns: 1fr;
+       row-gap: 5px;
+   }
+   .courses{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 10px;
+   }
+}
