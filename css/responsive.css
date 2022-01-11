@@ -1,4 +1,8 @@
 @media (max-width: 688px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .logo a{
         margin-left: 5px;
     }
@@ -13,13 +17,13 @@
        text-align: center;
    }
    .players{
-       grid-template-columns: 1fr;
+       grid-template-columns: repeat(1,1fr);
    }
    .player{
        flex-direction: column;
    }
    .blogs{
-       grid-template-columns: 1fr;
+       grid-template-columns: repeat(1,1fr);;
        row-gap: 5px;
    }
    .courses{
